@@ -1,0 +1,1 @@
+import{_ as s,c as t,t as a,u as n,a as o,f as r}from"./entry.b7c96027.js";const c={},u={class:"w-full h-full flex"};function f(e,i){return o(),t("main",u,a(JSON.stringify(("useRoute"in e?e.useRoute:n(r))().params)),1)}const _=s(c,[["render",f]]);export{_ as default};

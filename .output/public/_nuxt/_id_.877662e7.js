@@ -1,0 +1,1 @@
+import{_ as s,c as t,t as a,u as n,a as r,f as o}from"./entry.b7c96027.js";const u={};function c(e,i){return r(),t("div",null,a(JSON.stringify(("useRoute"in e?e.useRoute:n(o))().params)),1)}const _=s(u,[["render",c]]);export{_ as default};

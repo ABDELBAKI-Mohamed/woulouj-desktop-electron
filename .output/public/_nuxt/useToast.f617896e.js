@@ -1,0 +1,1 @@
+import{l as o}from"./entry.b7c96027.js";const u=(t=1e3,e)=>new Promise(s=>{setTimeout(()=>{s(e?e():!0)},t)});function l(){const t=o(()=>!1,"$DHh4iGjqZu"),e=o("$2xlPxFuIk2");return{toast:e,showtoast:t,toggleToast:async a=>{e.value=a,t.value=!0,await u(3300),t.value=!1}}}export{l as u};
