@@ -1,34 +1,39 @@
 {
-  "name": "electron",
-  "version": "1.0.0",
-  "description": "",
-  "main": "main.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "electron .",
-    "postinstall": "electron-builder install-app-deps",
-		"build": "electron-builder --mac --windows --linux",
-		"release": "electron-builder --mac --windows --linux --publish always"
+ "name": "Woulouj",
+ "version": "1.0.1",
+ "description": "",
+ "main": "main.js",
+ "scripts": {
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "start": "electron .",
+  "postinstall": "electron-builder install-app-deps",
+  "build": "electron-builder --mac --windows --linux",
+  "release": "electron-builder --mac --windows --linux --publish always"
+ },
+ "keywords": [],
+ "author": "",
+ "license": "ISC",
+ "devDependencies": {
+  "electron": "^24.4.0",
+  "electron-builder": "^23.6.0"
+ },
+ "build": {
+  "appId": "com.woulouj.wouloujLanguages",
+  "productName": "Woulouj Languages",
+  "mac": {
+   "category": "public.app-category.lifestyle"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "electron": "^24.4.0",
-    "electron-builder": "^23.6.0"
+  "dmg": {
+   "icon": false
   },
-  "build": {
-		"appId": "com.woulouj.wouloujLanguages",
-		"productName": "Woulouj Languages",
-		"mac": {
-			"category": "public.app-category.lifestyle"
-		},
-		"dmg": {
-			"icon": false
-		},
-		"linux": {
-			"target": ["AppImage"],
-			"category": "Office"
-		}
-	}
+  "linux": {
+   "target": [
+    "AppImage"
+   ],
+   "category": "Office"
+  }
+ },
+ "dependencies": {
+  "electron-updater": "^5.3.0"
+ }
 }
