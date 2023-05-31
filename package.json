@@ -1,0 +1,32 @@
+{
+  "name": "woulouj",
+  "private": true,
+  "main": "dist-electron/main.js",
+  "description": "woulouj app",
+  "author": "someone",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "nuxt build && npx electron-builder build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "tauri": "tauri"
+  },
+  "devDependencies": {
+    "@nuxtjs/supabase": "^0.3.5",
+    "@nuxtjs/tailwindcss": "^6.6.5",
+    "electron": "^25.0.0",
+    "electron-builder": "^23.6.0",
+    "install": "^0.13.0",
+    "npm": "^9.6.7",
+    "nuxt": "^3.5.2",
+    "nuxt-electron": "^0.5.0",
+    "vite-plugin-electron": "^0.11.2",
+    "vite-plugin-electron-renderer": "^0.14.5"
+  },
+  "dependencies": {
+    "firebase": "^9.19.1",
+    "tailwind-scrollbar": "^3.0.0"
+  }
+}
