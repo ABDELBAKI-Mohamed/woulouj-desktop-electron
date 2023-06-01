@@ -6,7 +6,7 @@
   "author": "someone",
   "version": "0.0.1",
   "scripts": {
-    "build": "nuxt build && npx electron-builder build",
+    "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
     "preview": "nuxt preview",
